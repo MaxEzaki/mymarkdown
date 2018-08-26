@@ -1,0 +1,72 @@
+[debug] [2018-08-26T00:57:39.418Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T00:57:39.421Z] Command:       /Users/takeruezaki/.nodebrew/node/v9.11.1/bin/node /Users/takeruezaki/.nodebrew/current/bin/firebase login --debug
+[debug] [2018-08-26T00:57:39.422Z] CLI Version:   4.2.0
+[debug] [2018-08-26T00:57:39.422Z] Platform:      darwin
+[debug] [2018-08-26T00:57:39.422Z] Node Version:  v9.11.1
+[debug] [2018-08-26T00:57:39.422Z] Time:          Sun Aug 26 2018 09:57:39 GMT+0900 (JST)
+[debug] [2018-08-26T00:57:39.422Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=175175776&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2018-08-26T00:57:44.045Z] Unable to open URL: Error: Exited with code 1
+    at ChildProcess.cp.once.code (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/opn/index.js:84:13)
+    at Object.onceWrapper (events.js:272:13)
+    at ChildProcess.emit (events.js:180:13)
+    at ChildProcess.emit (domain.js:422:20)
+    at maybeClose (internal/child_process.js:936:16)
+    at Socket.stream.socket.on (internal/child_process.js:353:11)
+    at Socket.emit (events.js:180:13)
+    at Socket.emit (domain.js:422:20)
+    at Pipe._handle.close [as _onclose] (net.js:541:12)
+[debug] [2018-08-26T00:58:06.996Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-08-26T00:58:07.006Z] Token Fetch Error: Error
+    at new FirebaseError (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:180:13)
+    at Request.emit (domain.js:422:20)
+    at Request.onRequestError (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:180:13)
+    at ClientRequest.emit (domain.js:422:20)
+    at TLSSocket.socketErrorListener (_http_client.js:395:9)
+    at TLSSocket.emit (events.js:180:13)
+[debug] [2018-08-26T01:00:29.453Z] ----------------------------------------------------------------------
+[debug] [2018-08-26T01:00:29.456Z] Command:       /Users/takeruezaki/.nodebrew/node/v9.11.1/bin/node /Users/takeruezaki/.nodebrew/current/bin/firebase login
+[debug] [2018-08-26T01:00:29.456Z] CLI Version:   4.2.0
+[debug] [2018-08-26T01:00:29.456Z] Platform:      darwin
+[debug] [2018-08-26T01:00:29.456Z] Node Version:  v9.11.1
+[debug] [2018-08-26T01:00:29.456Z] Time:          Sun Aug 26 2018 10:00:29 GMT+0900 (JST)
+[debug] [2018-08-26T01:00:29.456Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=73606314&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2018-08-26T01:00:34.803Z] Unable to open URL: Error: Exited with code 1
+    at ChildProcess.cp.once.code (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/opn/index.js:84:13)
+    at Object.onceWrapper (events.js:272:13)
+    at ChildProcess.emit (events.js:180:13)
+    at ChildProcess.emit (domain.js:422:20)
+    at maybeClose (internal/child_process.js:936:16)
+    at Socket.stream.socket.on (internal/child_process.js:353:11)
+    at Socket.emit (events.js:180:13)
+    at Socket.emit (domain.js:422:20)
+    at Pipe._handle.close [as _onclose] (net.js:541:12)
+[debug] [2018-08-26T01:00:40.687Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2018-08-26T01:00:40.694Z] Token Fetch Error: Error
+    at new FirebaseError (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/lib/api.js:34:11)
+    at self.callback (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:180:13)
+    at Request.emit (domain.js:422:20)
+    at Request.onRequestError (/Users/takeruezaki/.nodebrew/node/v9.11.1/lib/node_modules/firebase-tools/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:180:13)
+    at ClientRequest.emit (domain.js:422:20)
+    at TLSSocket.socketErrorListener (_http_client.js:395:9)
+    at TLSSocket.emit (events.js:180:13)

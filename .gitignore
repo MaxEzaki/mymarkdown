@@ -1,6 +1,22 @@
+### 2018/08/26 検証してもらうために修正 BEGIN
+# .DS_Store
+# node_modules/
+# dist/
+# npm-debug.log
+# yarn-error.log
+
+# Editor directories and files
+# .idea
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+### 2018/08/26 検証してもらうために修正 END
+
 .DS_Store
 node_modules/
-dist/
+dist/*
+!dist/index.html
 npm-debug.log
 yarn-error.log
 

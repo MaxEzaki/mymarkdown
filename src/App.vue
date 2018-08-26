@@ -18,8 +18,6 @@
     },
     created: function(){
       firebase.auth().onAuthStateChanged(user => {
-        // firebase.auth().onAuthStateChanged(function(user) {
-          console.log('あうあうあう');
           console.log(user);
           if(user){
             this.isLogin = true;

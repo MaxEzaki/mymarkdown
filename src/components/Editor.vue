@@ -13,7 +13,7 @@
 				<button class="saveMemosBtn" @click="saveMemos">メモの保存</button>
 			</div>
 			<textarea class="markdown" v-model="memos[selectedIndex].markdown"></textarea>
-			<div class="preview" v-html="preview()"></div>
+			<div class="preview markdown-body" v-html="preview()"></div>
 		</div>
 	</div>
 </template>
@@ -40,6 +40,17 @@
 					this.memos=result.val();
 				}
 			})
+		},
+		mounted: function(){
+			document.onkeydown = e => {
+				if(e.key=='s' && e.metaKey){
+					this.saveMemos();
+					return false;
+				}
+			}
+		},
+		beforeDestroy: function(){
+			document.onkeydown = null;
 		},
 		methods: {
 			logout: function(){
